@@ -2,11 +2,10 @@
 
 - **Projeto:** Desafio 1 — Minha Loja: Simulador de Compras
 - **Aluno:** André Lima
-- **Trilha:** _[preencher com o nome da trilha]_
 
 ## Apresentação da loja
 
-A **Byte Burger** é uma hamburgueria fictícia com tema de programação: lanches "compilados na hora, sem bugs e com muito queijo". A página mostra o cardápio e permite simular uma compra, calculando o valor de cada item, o desconto e o total.
+A **Byte Burger** é uma hamburgueria fictícia com tema de programação: lanches
 
 ### Produtos e preços
 
