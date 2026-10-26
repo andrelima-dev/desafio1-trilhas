@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Byte Burger - Hamburgueria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Byte Burger</h1>
+        <p>A hamburgueria feita por e para programadores. Lanches compilados na hora, sem bugs e com muito queijo.</p>
+    </header>
+
+    <main>
+        <section class="cardapio">
+            <h2>Cardápio</h2>
+            <div class="produtos">
+                <article class="produto">
+                    <span class="icone">🍔</span>
+                    <h3>X-Byte</h3>
+                    <p>Pão brioche, hambúrguer artesanal de 180g, cheddar duplo e molho da casa.</p>
+                    <p class="preco">R$ 28,00</p>
+                </article>
+
+                <article class="produto">
+                    <span class="icone">🍟</span>
+                    <h3>Batata Pixel</h3>
+                    <p>Porção de batatas rústicas crocantes com páprica e maionese verde.</p>
+                    <p class="preco">R$ 15,50</p>
+                </article>
+
+                <article class="produto">
+                    <span class="icone">🥤</span>
+                    <h3>Refri Overflow</h3>
+                    <p>Refrigerante gelado de 500ml para recarregar a sua memória RAM.</p>
+                    <p class="preco">R$ 7,00</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="instrucoes">
+            <h2>Como simular sua compra</h2>
+            <ol>
+                <li>Clique no botão <strong>"Simular compra"</strong>.</li>
+                <li>Digite a quantidade desejada de cada produto. Digite <strong>0</strong> se não quiser o produto.</li>
+                <li>Confira o resumo do pedido com o valor de cada item e o total.</li>
+            </ol>
+            <p class="desconto">Promoção: compras a partir de <strong>R$ 100,00</strong> ganham <strong>10% de desconto</strong>!</p>
+            <button class="botao" onclick="simularCompra()">Simular compra</button>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por André Lima</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
